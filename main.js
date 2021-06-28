@@ -13,4 +13,4 @@ const randWord = array => {
 };
 
 //return random strings with 1 random adjective, 1 random noun and 1 random verb
-console.log(`Hi there, the next ${randWord(nouns).bold()} you find will be very ${randWord(adjectives).bold()}, and you absolute should not ${randWord(verbs).bold()}.`)
+console.log(`Hi there, the next ${randWord(nouns).bold()} you find will be very ${randWord(adjectives).bold()}, and you absolutely should not ${randWord(verbs).bold()}.`)
