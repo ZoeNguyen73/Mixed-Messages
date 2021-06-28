@@ -13,6 +13,7 @@ Every time a user runs a program, they should get a new, randomized output.
 
 Every time the Mixed Messages program is run, a message is generated which includes a random adjective, a random animal and a random verb, which are generated from their respective arrays.
 
+The final message is also formatted in a ribbon ASCII art.
 
 Thanks to [*ijmacdowell*](https://gist.github.com/ijmacdowell/8325491) and [*borlaym*](https://gist.github.com/borlaym/585e2e09dd6abd9b0d0a) on github for your helpful input arrays.
 	
