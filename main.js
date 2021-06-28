@@ -12,5 +12,9 @@ const randWord = array => {
     return array[Math.floor(Math.random()*array.length)];
 };
 
-//return random strings with 1 random adjective, 1 random noun and 1 random verb
-console.log(`Hi there, the next ${randWord(nouns).bold()} you find will be very ${randWord(adjectives).bold()}, and you absolutely should not ${randWord(verbs).bold()}.`)
+//function to return random strings with 1 random adjective, 1 random noun and 1 random verb
+const generateMessage = () => {
+    console.log(`You will find an incredibly ${randWord(adjectives).bold()} ${randWord(nouns).bold()}, and you absolutely should not ${randWord(verbs).bold()}.`);
+};
+
+generateMessage();
