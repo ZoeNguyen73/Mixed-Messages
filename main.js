@@ -254,7 +254,7 @@ ________|      You will find an incredibly      |_______`);
     frontSpace = Math.floor((39-verb.length)/2);
     backSpace = 39-verb.length-frontSpace;
     console.log(' /      |'+'_'.repeat(frontSpace)+verb+'.'+'_'.repeat(backSpace-1)+'|     \\');
-    console.log('/________\\|                                  |/_______\\');
+    console.log('/________\\|                                  |/________\\');
 };
 
 generateMessage();
